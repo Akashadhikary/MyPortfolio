@@ -21,8 +21,7 @@ const MyExpertise = () => {
   ]);
 
   const handleClick = () => {
-    const url = "http://localhost:3000/Akash_Adhikary_Cover_Letter.pdf";
-    handleDownload(url);
+    const url = "Akash_Adhikary_Cover_Letter.pdf";
     window.open(url, "_blank")
   };
 

@@ -30,7 +30,7 @@ const Home = () => {
   ]);
 
   const handleClick = () => {
-    const url = "http://localhost:3000/Akash_Adhikary_Resume.pdf";
+    const url = "Akash_Adhikary_Resume.pdf";
     // handleDownload(url);
     window.open(url, "_blank")
   };
