@@ -22,7 +22,7 @@ const MyExpertise = () => {
 
   const handleClick = () => {
     const url = "Akash_Adhikary_Cover_Letter.pdf";
-    window.open(url, "_blank")
+    window.open(url, "_blank");
   };
 
   return (
@@ -40,10 +40,15 @@ const MyExpertise = () => {
       >
         <div className="w-full lg:w-1/2 mx-auto lg:mx-10">
           <h1 className="text-4xl font-bold text-center lg:text-left">
-            I love these technologies
+            I have experties in these technologies
           </h1>
           <p className="text-center lg:text-left">
-            my passion and enthusiasm for the diverse array of tools and frameworks that power modern software development. From front-end technologies like HTML, CSS, and JavaScript to powerful libraries and frameworks such as React.js and Redux, each technology represents a unique opportunity for creativity and innovation.
+            I am passionate and enthusiastic about the diverse tools and
+            frameworks that drive modern software development. With expertise in
+            front-end technologies, including HTML, CSS, and JavaScript, and
+            advanced libraries and frameworks such as React.js and Redux, I view
+            each technology as a distinct opportunity for innovation and
+            creative problem-solving.{" "}
           </p>
           <button
             className="block mx-auto lg:mx-0 px-4 py-2 mt-4 text-white bg-black rounded-full shadow-xl text-1xl hover:bg-gray-900"
@@ -71,4 +76,3 @@ const MyExpertise = () => {
 };
 
 export default MyExpertise;
-

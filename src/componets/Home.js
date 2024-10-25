@@ -74,13 +74,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center lg:w-1/2">
+        {/* <div className="w-full flex justify-center lg:w-1/2">
           <img
             className="rounded-full w-96 h-96 shadow-xl"
             src={homeData.image}
             alt="Akash Adhikary"
           />
-        </div>
+        </div> */}
       </div>
     </>
   );

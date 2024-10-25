@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,9 +13,9 @@ const Footer = () => {
         <div className='space-x-4'>
           <a className='hh hover:underline' href="https://github.com/akashadhikary" target="_blank" rel="noopener noreferrer">GitHub</a>
           <span className='hidden md:inline'>{' | '}</span>
-          <a className='hh hover:underline' href="/">Home</a>
+          <Link className='hh hover:underline' to="/">Home</Link>
           <span className='hidden md:inline'>{' | '}</span>
-          <a className='hh hover:underline' href='/contact'>Contact</a>
+          <Link className='hh hover:underline' to='/contact'>Contact</Link>
         </div>
       </div>
     </div>

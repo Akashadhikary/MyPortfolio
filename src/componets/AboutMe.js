@@ -6,7 +6,7 @@ const AboutMe = () => {
   const navigate = useNavigate();
 
   const [aboutData, setAboutData] = useState({
-    img: 'Akash.jpg',
+    img: 'Akash2.png',
     title: "React Js developer and  a passionate learner.",
     desc: "I have a strong technical proficiency in languages like JavaScript, HTML, CSS, and Java, along with experience working with frameworks such as React.js, Redux, Bootstrap, and Spring Boot. I am also familiar with web services like RESTful and databases like MySQL. My experience with various IDE tools like Visual Studio Code, Intellij, Jira, Mobaxterm, and WinSCP along with version control tools like Git and testing tools like Postman and GUI make me well-equipped for the role.",
     button: {
